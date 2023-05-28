@@ -8,7 +8,7 @@ for(let i=1; i< input.length; i++){
 
     if(input[i] !=`ACTION` || butget>0){
 
-    let check =Number (input[i])
+    let check =Number (input[i]);
 
     if (!isNaN(input[i])){
         
@@ -31,15 +31,13 @@ for(let i=1; i< input.length; i++){
         if (actorName.length >15){
 
             butget*=0.80;
-        }
-    }
-    
-}
-
-}
+        };
+    };  
+};
+};
 if (butget>=0){
-    console.log(`We are left with ${butget} leva`)
-}
-}
-cinema(["90000","Christian Bale","70000.50","Leonard DiCaprio","Kevin Spacey","24000.99"])
-cinema(["170000","Ben Affleck","40000.50","Zahari Baharov","80000","Tom Hanks","2000.99","ACTION"])
+    console.log(`We are left with ${butget} leva`);
+};
+};
+cinema(["90000","Christian Bale","70000.50","Leonard DiCaprio","Kevin Spacey","24000.99"]);
+cinema(["170000","Ben Affleck","40000.50","Zahari Baharov","80000","Tom Hanks","2000.99","ACTION"]);
